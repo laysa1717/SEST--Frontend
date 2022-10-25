@@ -1,0 +1,55 @@
+.rodape{
+    .esquerda{
+        height: 600px;
+        background-color: #003770;
+        color: #fff;
+        border-radius: 0px 30px 0px 0px;
+        .divisor-conteudo{
+            width: 1125px;
+            margin-left: 96px;
+            margin-top: 55px;
+            border-bottom: 2px solid #006996;
+        }
+        .conteudo-rodape{
+            margin-left: 96px;
+            height: 260px;
+           
+        }
+        .conteudo-rodape-sobrenos{
+            margin-left: 96px;
+            height: 170px;
+            a{
+                color: #fff;
+                text-decoration:none
+            }
+        }
+    }
+    .direita{
+        display: flex;
+        justify-content: center;
+        .client{
+            width: 120px;
+            height: 30px;
+            background-color: #003770;
+            border-radius: 20px;
+            border: #003770 1px solid;
+            font-size: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+        }
+        .social{
+            width: 25px;
+            height: 25px;
+            border: #003770 1px solid;
+            border-radius: 20px;
+            text-align: center;
+            color: #003770;
+            margin: 0px 10px 0px 10px;
+        }
+    }
+}
+.logo-rodape-final{
+    background-color: #F2F2F2;
+}

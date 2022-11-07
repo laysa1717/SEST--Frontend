@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=RobotoRegular&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=RobotoMedium:wght@500&display=swap');
 
 
 //Home
@@ -49,4 +50,19 @@
 .emBranco{
     height: 150px;
     background-color: white;
+}
+.fontdaModal{
+    font-family: 'RobotoRegular', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+h6{
+    font-family: 'RobotoRegular', sans-serif;
+}
+select{
+    font-family: 'RobotoRegular', sans-serif;
+}
+.divModal{
+    height: 315px;
 }

@@ -8,45 +8,153 @@
 .blueHeader{
     background-color: #003770;
 }
+@media screen and (min-width:1024px) {
+    .blueHeader{
+        background-color: #003770;
+    }
+    .flutuante{
+        width: 170%;
+        margin-left: 100px;
+        position: relative;
+        margin-top: 7%;
+    }
+    .flutuanteConteudo{
+        width: 170%;
+        margin-left: 100px;
+        position: relative;
+        margin-top: 3%;
+    }
+    .robotoBold900{
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-size: 45px;
+        font-weight: bold;
+    }
+    .robotoRegular{
+        font-family: 'RobotoRegular', sans-serif;
+        font-size: 16px;
+        line-height:21px
+    }
+    .robotoBold{
+        font-family: 'RobotoBold', sans-serif;
+        font-size: 42px;
+        font-weight: bold;
+    }
+    .button-cliente{
+        font-size: 11px;
+        font-weight: bold;
+        font-family: 'RobotoRegular', sans-serif;
+        border-radius: 12px;
+        color: #fff;
+        background-color: #006996;
 
-.flutuante{
-    width: 170%;
-    margin-left: 100px;
-    position: relative;
-    margin-top: 7%;
+    }
+    .button-cliente:hover{
+        border: #003770 1px solid;
+        color: #003770;
+    }
 }
-.flutuanteConteudo{
-    width: 170%;
-    margin-left: 100px;
-    position: relative;
-    margin-top: 3%;
-}
-.robotoBold900{
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-size: 45px;
-    font-weight: bold;
-}
-.robotoRegular{
-    font-family: 'RobotoRegular', sans-serif;
-    font-size: 16px;
-    line-height:21px
-}
-.robotoBold{
-    font-family: 'RobotoBold', sans-serif;
-    font-size: 42px;
-    font-weight: bold;
-}
-.button-cliente{
-    font-size: 11px;
-    font-weight: bold;
-    font-family: 'RobotoRegular', sans-serif;
-    border-radius: 12px;
-    color: #fff;
-    background-color: #006996;
 
+@media screen and (min-width:724px) {
+    .blueHeader{
+        background-color: #003770;
+    }
+    .flutuante{
+        width: 170%;
+        margin-left: 100px;
+        position: relative;
+        margin-top: 7%;
+    }
+    .flutuanteConteudo{
+        width: 170%;
+        margin-left: 100px;
+        position: relative;
+        margin-top: 3%;
+    }
+    .robotoBold900{
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-size: 45px;
+        font-weight: bold;
+    }
+    .robotoRegular{
+        font-family: 'RobotoRegular', sans-serif;
+        font-size: 16px;
+        line-height:21px
+    }
+    .robotoBold{
+        font-family: 'RobotoBold', sans-serif;
+        font-size: 42px;
+        font-weight: bold;
+    }
+    .button-cliente{
+        font-size: 11px;
+        font-weight: bold;
+        font-family: 'RobotoRegular', sans-serif;
+        border-radius: 12px;
+        color: #fff;
+        background-color: #006996;
+
+    }
+    .button-cliente:hover{
+        border: #003770 1px solid;
+        color: #003770;
+    }
 }
-.button-cliente:hover{
-    border: #003770 1px solid;
-    color: #003770;
+
+@media screen and (max-width:650px) {
+    .blueHeader{
+        background-color: #003770;
+    }
+    .img-rodape{
+        display: none;
+    }
+    .flutuante{
+        // background-color: red;
+        width: 170%;
+        position: relative;
+        margin-top: 7%;
+    }
+    .flutuanteConteudo{
+        width: 170%;
+        margin-left: 20px;
+        margin-top: 3%;
+        position: relative;
+    }
+    .titleHeader{
+        width: 90%;
+    }
+    .menu .nav .nav-item{
+        display: none;
+        
+    }
+    .robotoBold900{
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-size: 45px;
+        font-weight: bold;
+    }
+    .robotoRegular{
+        font-family: 'RobotoRegular', sans-serif;
+        font-size: 16px;
+        line-height:21px
+    }
+    .robotoBold{
+        font-family: 'RobotoBold', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .button-cliente{
+        font-size: 11px;
+        font-weight: bold;
+        font-family: 'RobotoRegular', sans-serif;
+        border-radius: 12px;
+        color: #fff;
+        background-color: #006996;
+
+    }
+    .button-cliente:hover{
+        border: #003770 1px solid;
+        color: #003770;
+    }
 }

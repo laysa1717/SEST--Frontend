@@ -1,142 +1,444 @@
 @import url('https://fonts.googleapis.com/css2?family=RobotoRegular&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=RobotoMedium:wght@500&display=swap');
 
-.area-cliente-cabecalho{
-    .button-cabecalho{
-        width: 170px;
-        height: 30px;
-        background-color: #fff;
-        border-radius: 20px;
-        border: #003770 1px solid;
-        font-size: 12px;
-        display: flex;
-        font-weight: bold;
-        justify-content: center;
-        align-items: center;
-        color: #003770;
-        
-    }
-    .social{
-        width: 25px;
-        height: 25px;
-        border: #fff 1px solid;
-        border-radius: 20px;
-        text-align: center;
-        color: #fff;
-        display: flex;
-        padding: 1%;
-        margin: 0px 5px 0px 5px;
-    }
-}
 
-.rodape{
-    font-family: 'RobotoRegular', sans-serif;
-    .esquerda{
-        height: 600px;
-        background-color: #003770;
-        color: #fff;
-        border-radius: 0px 30px 0px 0px;
-        .divisor-conteudo{
-            width: 1145px;
-            margin-left: 96px;
-            margin-top: 55px;
-            border-bottom: 2px solid #006996;
-        }
-        .conteudo-rodape{
-            margin-left: 96px;
-            height: 260px;
-            .titulo-rodape{
-                color:#20AAEE;
-                font-size: 12px;
-            }
-            .font-rodape{
-                font-size: 16px;
-            }
-            .botao-rodape{
-                border-radius: 20px;
-                border: #fff 1px solid;
-                font-size: 11px;
-                cursor: pointer;
-            }
-            .botao-rodape-v1{
-                width: 200px;
-                border-radius: 20px;
-                border: #fff 1px solid;
-                font-size: 11px;
-                cursor: pointer;
-            }
-           
-        }
-        .conteudo-rodape-sobrenos{
-            margin-left: 96px;
-            height: 170px;
-            a{
-                color: #fff;
-                text-decoration:none
-            }
-            .titulo-rodape{
-                color:#20AAEE;
-                font-size: 12px;
-            }
-            .font-rodape{
-                font-size: 16px;
-            }
-        }
-    }
-    .direita{
-        .area-cliente{
-            display: flex;
-            justify-content: flex-end;
-            margin-left: 70px;
-            // background-color: red;
-        }
-        .sublinhado{
-            height: 35px;
-            border-bottom: 1px solid #006996;
-            color: #2E3033;
-            font-family: 'RobotoMedium', sans-serif;
-            
-        }
-        .numero-rodape{
-            font-size: 20px;
-            font-family: 'RobotoMedium', sans-serif;
-            font-weight: bold;
-            color: #2E3033;
-
-        }
-        .endereco-rodape{
-            font-size: 12px;
-            color: #2E3033;
-            font-family: 'RobotoMedium', sans-serif;
-        }
-        .client{
-            width: 120px;
+@media screen and (min-width:1024px) {
+    .area-cliente-cabecalho{
+        .button-cabecalho{
+            width: 170px;
             height: 30px;
-            background-color: #003770;
+            background-color: #fff;
             border-radius: 20px;
             border: #003770 1px solid;
             font-size: 12px;
             display: flex;
+            font-weight: bold;
             justify-content: center;
             align-items: center;
-            color: #fff;
+            color: #003770;
+            
         }
         .social{
             width: 25px;
             height: 25px;
-            border: #003770 1px solid;
+            border: #fff 1px solid;
             border-radius: 20px;
             text-align: center;
-            color: #003770;
+            color: #fff;
             display: flex;
             padding: 1%;
-            margin: 0px 5px 0px 1px;
-        }
-        .conteudo-direita{
-            margin-top: 120px;
+            margin: 0px 5px 0px 5px;
         }
     }
+    
+    .rodape{
+        .container-rodape{
+            display: flex;
+        }
+        font-family: 'RobotoRegular', sans-serif;
+        .esquerda{
+            height: 600px;
+            background-color: #003770;
+            color: #fff;
+            border-radius: 0px 30px 0px 0px;
+            .divisor-conteudo{
+                width: 1145px;
+                margin-left: 96px;
+                margin-top: 55px;
+                border-bottom: 2px solid #006996;
+            }
+            .conteudo-rodape{
+                margin-left: 96px;
+                height: 260px;
+                .titulo-rodape{
+                    color:#20AAEE;
+                    font-size: 12px;
+                }
+                .font-rodape{
+                    font-size: 16px;
+                }
+                .botao-rodape{
+                    border-radius: 20px;
+                    border: #fff 1px solid;
+                    font-size: 11px;
+                    cursor: pointer;
+                }
+                .botao-rodape-v1{
+                    width: 200px;
+                    border-radius: 20px;
+                    border: #fff 1px solid;
+                    font-size: 11px;
+                    cursor: pointer;
+                }
+               
+            }
+            .conteudo-rodape-sobrenos{
+                margin-left: 96px;
+                height: 170px;
+                a{
+                    color: #fff;
+                    text-decoration:none
+                }
+                .titulo-rodape{
+                    color:#20AAEE;
+                    font-size: 12px;
+                }
+                .font-rodape{
+                    font-size: 16px;
+                }
+            }
+        }
+        .direita{
+            .area-cliente{
+                display: flex;
+                justify-content: flex-end;
+                margin-left: 70px;
+                // background-color: red;
+            }
+            .sublinhado{
+                height: 35px;
+                border-bottom: 1px solid #006996;
+                color: #2E3033;
+                font-family: 'RobotoMedium', sans-serif;
+                
+            }
+            .numero-rodape{
+                font-size: 20px;
+                font-family: 'RobotoMedium', sans-serif;
+                font-weight: bold;
+                color: #2E3033;
+    
+            }
+            .endereco-rodape{
+                font-size: 12px;
+                color: #2E3033;
+                font-family: 'RobotoMedium', sans-serif;
+            }
+            .client{
+                width: 120px;
+                height: 30px;
+                background-color: #003770;
+                border-radius: 20px;
+                border: #003770 1px solid;
+                font-size: 12px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #fff;
+            }
+            .social{
+                width: 25px;
+                height: 25px;
+                border: #003770 1px solid;
+                border-radius: 20px;
+                text-align: center;
+                color: #003770;
+                display: flex;
+                padding: 1%;
+                margin: 0px 5px 0px 1px;
+            }
+            .conteudo-direita{
+                margin-top: 120px;
+            }
+        }
+    }
+    .logo-rodape-final{
+        background-color: #F2F2F2;
+    }
 }
-.logo-rodape-final{
-    background-color: #F2F2F2;
+
+@media screen and (min-width:724px) {
+    .area-cliente-cabecalho{
+        .button-cabecalho{
+            width: 170px;
+            height: 30px;
+            background-color: #fff;
+            border-radius: 20px;
+            border: #003770 1px solid;
+            font-size: 12px;
+            display: flex;
+            font-weight: bold;
+            justify-content: center;
+            align-items: center;
+            color: #003770;
+            
+        }
+        .social{
+            width: 25px;
+            height: 25px;
+            border: #fff 1px solid;
+            border-radius: 20px;
+            text-align: center;
+            color: #fff;
+            display: flex;
+            padding: 1%;
+            margin: 0px 5px 0px 5px;
+        }
+    }
+    
+    .rodape{
+        .container-rodape{
+            display: flex;
+        }
+        font-family: 'RobotoRegular', sans-serif;
+        .esquerda{
+            height: 600px;
+            background-color: #003770;
+            color: #fff;
+            border-radius: 0px 30px 0px 0px;
+            .divisor-conteudo{
+                width: 1145px;
+                margin-left: 96px;
+                margin-top: 55px;
+                border-bottom: 2px solid #006996;
+            }
+            .conteudo-rodape{
+                margin-left: 96px;
+                height: 260px;
+                .titulo-rodape{
+                    color:#20AAEE;
+                    font-size: 12px;
+                }
+                .font-rodape{
+                    font-size: 16px;
+                }
+                .botao-rodape{
+                    border-radius: 20px;
+                    border: #fff 1px solid;
+                    font-size: 11px;
+                    cursor: pointer;
+                }
+                .botao-rodape-v1{
+                    width: 200px;
+                    border-radius: 20px;
+                    border: #fff 1px solid;
+                    font-size: 11px;
+                    cursor: pointer;
+                }
+               
+            }
+            .conteudo-rodape-sobrenos{
+                margin-left: 96px;
+                height: 170px;
+                a{
+                    color: #fff;
+                    text-decoration:none
+                }
+                .titulo-rodape{
+                    color:#20AAEE;
+                    font-size: 12px;
+                }
+                .font-rodape{
+                    font-size: 16px;
+                }
+            }
+        }
+        .direita{
+            .area-cliente{
+                display: flex;
+                justify-content: flex-end;
+                margin-left: 70px;
+                // background-color: red;
+            }
+            .sublinhado{
+                height: 35px;
+                border-bottom: 1px solid #006996;
+                color: #2E3033;
+                font-family: 'RobotoMedium', sans-serif;
+                
+            }
+            .numero-rodape{
+                font-size: 20px;
+                font-family: 'RobotoMedium', sans-serif;
+                font-weight: bold;
+                color: #2E3033;
+    
+            }
+            .endereco-rodape{
+                font-size: 12px;
+                color: #2E3033;
+                font-family: 'RobotoMedium', sans-serif;
+            }
+            .client{
+                width: 120px;
+                height: 30px;
+                background-color: #003770;
+                border-radius: 20px;
+                border: #003770 1px solid;
+                font-size: 12px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #fff;
+            }
+            .social{
+                width: 25px;
+                height: 25px;
+                border: #003770 1px solid;
+                border-radius: 20px;
+                text-align: center;
+                color: #003770;
+                display: flex;
+                padding: 1%;
+                margin: 0px 5px 0px 1px;
+            }
+            .conteudo-direita{
+                margin-top: 120px;
+            }
+        }
+    }
+    .logo-rodape-final{
+        background-color: #F2F2F2;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .area-cliente-cabecalho{
+       
+        .button-cabecalho{
+            width: 170px;
+            height: 30px;
+            background-color: red;
+            border-radius: 20px;
+            border: #003770 1px solid;
+            font-size: 12px;
+            display: flex;
+            font-weight: bold;
+            justify-content: center;
+            align-items: center;
+            color: #003770;
+            display: none;
+            
+        }
+        .social{
+            width: 25px;
+            height: 25px;
+            border: #fff 1px solid;
+            border-radius: 20px;
+            text-align: center;
+            color: #fff;
+            display: flex;
+            padding: 1%;
+            margin: 0px 5px 0px 5px;
+            display: none;
+        }
+    }
+    
+    .rodape{
+        font-family: 'RobotoRegular', sans-serif;
+        .container-rodape{
+            display: none;
+        }
+        .esquerda{
+            height: 600px;
+            background-color: #003770;
+            color: #fff;
+            border-radius: 0px 30px 0px 0px;
+            .divisor-conteudo{
+                width: 1145px;
+                margin-left: 96px;
+                margin-top: 55px;
+                border-bottom: 2px solid #006996;
+            }
+            .conteudo-rodape{
+                margin-left: 96px;
+                height: 260px;
+                .titulo-rodape{
+                    color:#20AAEE;
+                    font-size: 12px;
+                }
+                .font-rodape{
+                    font-size: 16px;
+                }
+                .botao-rodape{
+                    border-radius: 20px;
+                    border: #fff 1px solid;
+                    font-size: 11px;
+                    cursor: pointer;
+                }
+                .botao-rodape-v1{
+                    width: 200px;
+                    border-radius: 20px;
+                    border: #fff 1px solid;
+                    font-size: 11px;
+                    cursor: pointer;
+                }
+               
+            }
+            .conteudo-rodape-sobrenos{
+                margin-left: 96px;
+                height: 170px;
+                a{
+                    color: #fff;
+                    text-decoration:none
+                }
+                .titulo-rodape{
+                    color:#20AAEE;
+                    font-size: 12px;
+                }
+                .font-rodape{
+                    font-size: 16px;
+                }
+            }
+        }
+        .direita{
+            .area-cliente{
+                display: flex;
+                justify-content: flex-end;
+                margin-left: 70px;
+                // background-color: red;
+            }
+            .sublinhado{
+                height: 35px;
+                border-bottom: 1px solid #006996;
+                color: #2E3033;
+                font-family: 'RobotoMedium', sans-serif;
+                
+            }
+            .numero-rodape{
+                font-size: 20px;
+                font-family: 'RobotoMedium', sans-serif;
+                font-weight: bold;
+                color: #2E3033;
+    
+            }
+            .endereco-rodape{
+                font-size: 12px;
+                color: #2E3033;
+                font-family: 'RobotoMedium', sans-serif;
+            }
+            .client{
+                width: 120px;
+                height: 30px;
+                background-color: #003770;
+                border-radius: 20px;
+                border: #003770 1px solid;
+                font-size: 12px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #fff;
+            }
+            .social{
+                width: 25px;
+                height: 25px;
+                border: #003770 1px solid;
+                border-radius: 20px;
+                text-align: center;
+                color: #003770;
+                display: flex;
+                padding: 1%;
+                margin: 0px 5px 0px 1px;
+            }
+            .conteudo-direita{
+                margin-top: 120px;
+            }
+        }
+    }
+    .logo-rodape-final{
+        background-color: #F2F2F2;
+        img{
+            max-width: 100%;
+        }
+    }
 }

@@ -3,7 +3,80 @@
 @import url('https://fonts.googleapis.com/css2?family=RobotoMedium:wght@500&display=swap');
 
 
-//Home
+@media screen and (min-width:1024px) {
+        //Home
+    .space{
+        height: 130px;
+    }
+
+    .conteudoHome{
+        // background-color: red;
+        margin-top: -95px;
+        position: relative;
+        .conteudo-videos-home .video-mobile{
+            
+                display: none;
+            
+        }
+        
+    }
+
+    .textSizeBotton{
+        font-size:15px;
+    }
+    .button{
+        background-color:#006996;
+        // font-weight: bold;
+    }
+    .button:hover{
+        background-color:#023770;
+        cursor: pointer;
+    }
+    .titleDescrition{
+        font-size: 30px;
+        font-weight: bold;
+        // background-color: red;
+        font-family: 'Roboto', sans-serif;
+    }
+    .Descrition{
+        // background-color: #023770;
+        font-size: 18px;
+        color: #2E3033;
+        font-family: 'RobotoRegular', sans-serif;
+    }
+    .descritionAgende{
+        // background-color: red;
+        font-size: 33px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .subtitulo{
+        color:#2E72E0;
+        font-family: 'RobotoRegular', sans-serif;
+        font-size: 14px;
+    }
+    .emBranco{
+        height: 150px;
+        background-color: white;
+    }
+    .fontdaModal{
+        font-family: 'RobotoRegular', sans-serif;
+        font-weight: bold;
+        font-size: 18px;
+
+    }
+    h6{
+        font-family: 'RobotoRegular', sans-serif;
+    }
+    select{
+        font-family: 'RobotoRegular', sans-serif;
+    }
+    .divModal{
+        height: 315px;
+    }
+}
+
+@media screen and (min-width:724px) {
+    //Home
 .space{
     height: 130px;
 }
@@ -12,6 +85,12 @@
     // background-color: red;
     margin-top: -95px;
     position: relative;
+    .conteudo-videos-home .video-mobile{
+        
+            display: none;
+        
+    }
+    
 }
 
 .textSizeBotton{
@@ -65,4 +144,75 @@ select{
 }
 .divModal{
     height: 315px;
+}
+}
+
+
+@media screen and (max-width:650px) {
+//Home
+.space{
+    height: 130px;
+}
+
+.conteudoHome{
+    // background-color: red;
+    margin-top: -95px;
+    position: relative;
+    .conteudo-videos-home{
+        background-color: red;
+    }
+}
+
+.textSizeBotton{
+    font-size:15px;
+}
+.button{
+    background-color:#006996;
+    // font-weight: bold;
+}
+.button:hover{
+    background-color:#023770;
+    cursor: pointer;
+}
+.titleDescrition{
+    font-size: 30px;
+    font-weight: bold;
+    // background-color: red;
+    font-family: 'Roboto', sans-serif;
+}
+.Descrition{
+    // background-color: #023770;
+    font-size: 18px;
+    color: #2E3033;
+    font-family: 'RobotoRegular', sans-serif;
+}
+.descritionAgende{
+    // background-color: red;
+    font-size: 33px;
+    font-family: 'Roboto', sans-serif;
+}
+.subtitulo{
+    color:#2E72E0;
+    font-family: 'RobotoRegular', sans-serif;
+    font-size: 14px;
+}
+.emBranco{
+    height: 150px;
+    background-color: white;
+}
+.fontdaModal{
+    font-family: 'RobotoRegular', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+h6{
+    font-family: 'RobotoRegular', sans-serif;
+}
+select{
+    font-family: 'RobotoRegular', sans-serif;
+}
+.divModal{
+    height: 315px;
+}
 }
